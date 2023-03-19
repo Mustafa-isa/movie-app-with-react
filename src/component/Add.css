@@ -1,0 +1,33 @@
+.container{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.container .input input{
+ display: block;
+ width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 12px;
+ outline :none ;
+border:  3px solid   rgb(20, 149, 20);
+border-radius: 10px ;
+}
+.container .input input:focus{
+  outline:  7px solid rgba(20, 149, 20 ,.5);
+}
+.container .input input::placeholder{
+  text-transform: capitalize;
+ color: #333;
+ font-weight: 300;
+ font-family: cursive;
+ font-size: 19px;
+}
+ul{
+  list-style: none;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+
+}
